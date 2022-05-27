@@ -100,6 +100,11 @@ body {
     justify-content: flex-end;
 }
 
+.heart img {
+    width: 40px;
+    height: 40px;
+}
+
 .victory-card {
     text-align: center;
     width: 400px;
@@ -518,6 +523,10 @@ body {
         border: 2px solid #141E27;
     }
 
+    .key p{
+        pointer-events: none;
+    }
+
     .inactive-key {
         width: 50px;
         height: 40px;
@@ -678,6 +687,10 @@ body {
         font-size: 18px;
         background: #E0DDAA;
         border: 2px solid #141E27;
+    }
+
+    .key p{
+        pointer-events: none;
     }
 
     .inactive-key {
