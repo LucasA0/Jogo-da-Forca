@@ -61,9 +61,9 @@ newGameBtn.addEventListener('click', () => {
 
 
 
-const words = ['PEIXE', 'PUNHO', 'PROJETIL', 'PALITO', 'ELEFANTE', 'MILHO', 'RECIPIENTE', 'ADESIVO', 'NICOTINA', 'MINHOCA']
+const words = ['PEIXE', 'PUNHO', 'PROJETIL', 'PALITO', 'ELEFANTE', 'MILHO', 'RECIPIENTE', 'ADESIVO', 'NICOTINA', 'MINHOCA', 'SANGRAR', 'BARREIRA', 'PIZZA', 'MOLA', 'PANELA', 'SUBMARINO', 'ALAVANCA', 'DVD', 'OSSO', 'BERINJELA']
 
-const tips = ['ANIMAL', 'PARTE DO CORPO', 'ARMA DE FOGO', 'OBJETO', 'ANIMAL', 'ALIMENTO', 'OBJETO', 'COLA', 'SUBSTANCIA', 'ANIMAL']
+const tips = ['ANIMAL', 'PARTE DO CORPO', 'ARMA DE FOGO', 'OBJETO', 'ANIMAL', 'ALIMENTO', 'OBJETO', 'COLA', 'SUBSTNCIA', 'ANIMAL', 'AÇÃO', 'OBJETO', 'ALIMENTO', 'OBJETO', 'COZINHA', 'SUBMERSÃO', 'OBJETO', 'OBJETO', 'PARTE DO CORPO', 'FRUTA']
 
 
 
@@ -122,7 +122,6 @@ function keyDownGame(e) {
 function keyDownMobile(e) {
     const wordLength = document.querySelectorAll('.game-words div').length;
     const buttonKeyboard = e.target;
-    console.log(buttonKeyboard)
     if(!keyPressed.includes(buttonKeyboard.textContent) && buttonKeyboard.classList.contains('key')) {
         keyPressed.push(buttonKeyboard.textContent);
         if(wordBackup.includes(buttonKeyboard.textContent.toUpperCase())) {
@@ -212,7 +211,6 @@ function createBoardMobile() {
     }
     disabledWord.innerHTML = '';
 }
-console.log(document.querySelectorAll('#mobile-board div'))
 
 function heartLoss(points) {
     switch(points){
