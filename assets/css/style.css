@@ -74,6 +74,11 @@ body {
     color: #141E27;
 }
 
+.networks a {
+    text-decoration: none;
+    color: #141E27;
+}
+
 .input-area {
     display: flex;
     flex-flow: column wrap;
