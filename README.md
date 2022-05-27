@@ -6,3 +6,5 @@
 
 ## 🔎 https://lucasa0.github.io/Jogo-da-Forca/index.html para quem quiser testar e posteriormente jogar
 
+## Todo o Site é responsivo e funciona na maioria dos dispositivos móveis
+
