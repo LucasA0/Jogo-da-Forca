@@ -628,6 +628,10 @@ body {
         height: 15%;
         align-items: flex-end;
     }
+
+    .tip {
+        font-size: 18px;
+    }
     
     .disabled {
         width: 10%;
@@ -649,7 +653,7 @@ body {
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 20%;
+        height: 25%;
     }
 
     .key-1 {
@@ -724,7 +728,7 @@ body {
         flex-flow: column wrap;
         justify-content: center;
         width: 100%;
-        height: 48%;
+        height: 43%;
     }
 
     .game-btn {
