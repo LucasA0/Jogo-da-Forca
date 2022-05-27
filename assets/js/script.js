@@ -217,22 +217,22 @@ console.log(document.querySelectorAll('#mobile-board div'))
 function heartLoss(points) {
     switch(points){
         case 1:
-            hearts.children[5].children[0].src = './assets/images/icons/lucas.gif';
+            hearts.children[5].children[0].src = './assets/images/icons/Lucas.gif';
             break;
         case 2:
-            hearts.children[4].children[0].src = './assets/images/icons/lucas-2.gif';
+            hearts.children[4].children[0].src = './assets/images/icons/Lucas-2.gif';
             break;
         case 3:
-            hearts.children[3].children[0].src = './assets/images/icons/lucas-3.gif';
+            hearts.children[3].children[0].src = './assets/images/icons/Lucas-3.gif';
             break;
         case 4:
-            hearts.children[2].children[0].src = './assets/images/icons/lucas-4.gif';
+            hearts.children[2].children[0].src = './assets/images/icons/Lucas-4.gif';
             break;
         case 5:
-            hearts.children[1].children[0].src = './assets/images/icons/lucas-5.gif';
+            hearts.children[1].children[0].src = './assets/images/icons/Lucas-5.gif';
             break;
         case 6:
-            hearts.children[0].children[0].src = './assets/images/icons/lucas-6.gif';
+            hearts.children[0].children[0].src = './assets/images/icons/Lucas-6.gif';
             lost();
             break;
     }
