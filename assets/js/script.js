@@ -140,7 +140,8 @@ function keyDownMobile(e) {
             buttonKeyboard.classList.remove('key');
             buttonKeyboard.classList.add('inactive-key');
             disabledWord.innerHTML += `<div class="disabled"><p>${buttonKeyboard.children[0].textContent}</p></div>`;
-            heartLoss(lossCount++);
+            lossCount++
+            heartLoss(lossCount);
         }
     }
 }
