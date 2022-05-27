@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Jogo da Forca - Página Inicial</title>
+</head>
+<body>
+    <header id="header">
+        <img src="./assets/images/logo/alura.png" alt="" class="logo">
+    </header>
+    <main id="home">
+        <div class="home-header">
+            <h2 class="main-title">Jogo da Forca</h2>
+        </div>
+        <button id="btn-start" class="btn-primary-home">Começar Jogo</button>
+        <button id="btn-add-word" class="btn-secondary-home">Adicionar Palavra</button>
+    </main>
+    <section id="home-add-word">
+        <div id="input-area" class="input-area">
+            <input type="text" class="input-word" id="input-word" placeholder="Digite Aqui" maxlength="10">
+            <input type="text" class="input-tip" id="input-tip" placeholder="Digite a Dica Aqui" maxlength="10">
+        </div>
+        <div class="btn-add">
+            <button class="btn-save" id="save-word">Salvar</button>
+            <button class="cancel" id="cancel">Voltar</button>
+        </div>
+    </section>
+    <section id="home-game">
+        <div class="game-header">
+            <div class="victory-card" id="win-card">
+                <div class="victory">
+                    <p>Parabéns Você Venceu!</p>
+                </div>
+                <div class="restart-game">
+                    <p>Comece um novo Jogo</p>
+                </div>
+            </div>
+            <div class="defeat-card" id="loss-card">
+                <div class="defeat">
+                    <p>Infelizmente Você Perdeu!</p>
+                </div>
+                <div class="play-again">
+                    <p>Tente Novamente!</p>
+                </div>
+            </div>
+            <div class="hearts" id="hearts">
+                <div class="heart"><img src="./assets/images/icons/coracao.png" alt=""></div>
+                <div class="heart"><img src="./assets/images/icons/coracao.png" alt=""></div>
+                <div class="heart"><img src="./assets/images/icons/coracao.png" alt=""></div>
+                <div class="heart"><img src="./assets/images/icons/coracao.png" alt=""></div>
+                <div class="heart"><img src="./assets/images/icons/coracao.png" alt=""></div>
+                <div class="heart"><img src="./assets/images/icons/coracao.png" alt=""></div>
+            </div>
+        </div>
+        <div class="main-game" id="board">
+            <div class="game-words" id="main-word">
+                <div class="word"><p>A</p></div>
+                <div class="word"><p>A</p></div>
+                <div class="word"><p>A</p></div>
+                <div class="word"><p>A</p></div>
+                <div class="word"><p>A</p></div>
+                <div class="word"><p>A</p></div>
+                <div class="word"><p>A</p></div>
+                <div class="word"><p>A</p></div>
+                <div class="word"><p>A</p></div>
+                <div class="word"><p>A</p></div>
+            </div>
+            <div class="tips" >
+                <p class="tip" id="tip">Substancia</p>
+            </div>
+            <div class="disabled-words" id="disabled-word">
+                <div class="disabled"><p>A</p></div>
+                <div class="disabled"><p>A</p></div>
+                <div class="disabled"><p>A</p></div>
+                <div class="disabled"><p>A</p></div>
+                <div class="disabled"><p>A</p></div>
+                <div class="disabled"><p>A</p></div>
+            </div>
+        </div>
+        <div class="board" id="mobile-board">
+            <div class="key-1">
+                <div class="key"><p>Q</p></div>
+                <div class="key"><p>W</p></div>
+                <div class="key"><p>E</p></div>
+                <div class="key"><p>R</p></div>
+                <div class="key"><p>T</p></div>
+                <div class="key"><p>Y</p></div>
+                <div class="key"><p>U</p></div>
+                <div class="key"><p>I</p></div>
+                <div class="key"><p>O</p></div>
+                <div class="key"><p>P</p></div>
+            </div>
+            <div class="key-2">
+                <div class="key"><p>A</p></div>
+                <div class="key"><p>S</p></div>
+                <div class="key"><p>D</p></div>
+                <div class="key"><p>F</p></div>
+                <div class="key"><p>G</p></div>
+                <div class="key"><p>H</p></div>
+                <div class="key"><p>J</p></div>
+                <div class="key"><p>K</p></div>
+                <div class="key"><p>L</p></div>
+            </div>
+            <div class="key-3">
+                <div class="key"><p>Z</p></div>
+                <div class="key"><p>X</p></div>
+                <div class="key"><p>C</p></div>
+                <div class="key"><p>V</p></div>
+                <div class="key"><p>B</p></div>
+                <div class="key"><p>N</p></div>
+                <div class="key"><p>M</p></div>
+            </div>
+        </div>
+        <div class="game-btn">
+            <button id="new-game" class="new-game-btn">Novo Jogo</button>
+            <button id="give-up" class="give-up-btn">Desistir</button>
+        </div>
+    </section>
+    <footer id="footer">
+        <p class="autor">Autor: &copy; Lucas Araujo</p>
+        <div class="networks">
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github-square"></i>
+        </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/a787396094.js" crossorigin="anonymous"></script>
+</body>
+</html>
