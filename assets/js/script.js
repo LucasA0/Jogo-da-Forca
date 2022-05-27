@@ -243,7 +243,7 @@ function win() {
     }, 950)
     winCard.style.display = 'block';
     document.removeEventListener('keydown', keyDownGame);
-    document.removeEventListener('click', keyDownGameMobile);
+    document.removeEventListener('click', keyDownMobile);
 }
 
 function lost() {
@@ -253,5 +253,5 @@ function lost() {
     }, 950)
     lossCard.style.display = 'block';
     document.removeEventListener('keydown', keyDownGame);
-    document.removeEventListener('click', keyDownGameMobile);
+    document.removeEventListener('click', keyDownMobile);
 }
